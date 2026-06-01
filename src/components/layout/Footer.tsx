@@ -20,7 +20,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm font-light leading-relaxed mb-6 max-w-xs">
-              Kerala's most trusted provider of precision weighing, billing, packaging, and industrial automation solutions since 2003.
+              Kerala&apos;s most trusted provider of precision weighing, billing, packaging, and industrial automation solutions since 2003.
             </p>
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer"><Phone className="w-4 h-4 text-primary flex-shrink-0" /> +91 9000 000 000</div>

@@ -41,7 +41,7 @@ export default function WhyATL() {
           <h2 className="text-sm font-bold text-primary uppercase tracking-widest mb-2">The ATL Advantage</h2>
           <h3 className="text-4xl md:text-5xl font-black text-white">Why Choose ATL?</h3>
           <p className="text-zinc-400 mt-6 text-lg font-light">
-            We don't just sell products; we engineer complete solutions. Our end-to-end service ensures your operations run smoothly and accurately.
+            We don&apos;t just sell products; we engineer complete solutions. Our end-to-end service ensures your operations run smoothly and accurately.
           </p>
         </div>
 

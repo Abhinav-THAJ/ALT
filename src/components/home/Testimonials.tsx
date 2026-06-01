@@ -49,7 +49,7 @@ export default function Testimonials() {
                   <Star key={s} className="w-4 h-4 fill-amber-400 text-amber-400" />
                 ))}
               </div>
-              <p className="text-muted-foreground font-light leading-relaxed mb-6 text-lg">"{t.text}"</p>
+              <p className="text-muted-foreground font-light leading-relaxed mb-6 text-lg">&quot;{t.text}&quot;</p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 bg-muted">
                   <img src={t.image} alt={t.name} className="w-full h-full object-cover" />

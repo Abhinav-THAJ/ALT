@@ -46,7 +46,7 @@ function CheckoutContent() {
     payment: "cod",
   });
 
-  const [buyNowItem, setBuyNowItem] = useState<any>(null);
+  const [buyNowItem, setBuyNowItem] = useState<(typeof allProducts)[0] & { quantity: number } | null>(null);
 
   useEffect(() => {
     setMounted(true);

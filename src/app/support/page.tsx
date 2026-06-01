@@ -35,7 +35,7 @@ export default function SupportPage() {
           </div>
           <h1 className="text-5xl font-black text-white mb-4">Customer Support</h1>
           <p className="text-zinc-300 text-lg font-light max-w-3xl">
-            ATL's dedicated support team is here to help you at every stage – from product registration to after-sales service.
+            ATL&apos;s dedicated support team is here to help you at every stage – from product registration to after-sales service.
           </p>
         </div>
       </div>

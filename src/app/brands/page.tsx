@@ -71,7 +71,7 @@ export default function BrandsPage() {
             </div>
             <h1 className="text-5xl font-black text-white mb-4">Our Brand Partners</h1>
             <p className="text-zinc-300 text-lg font-light max-w-3xl">
-              ATL is an authorized distributor and service partner for the world's leading industrial technology brands.
+              ATL is an authorized distributor and service partner for the world&apos;s leading industrial technology brands.
             </p>
           </div>
         </div>
