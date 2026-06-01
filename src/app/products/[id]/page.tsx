@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ChevronRight, Download, MessageSquare, Phone, FileText, Star, ChevronDown, ChevronUp, ShoppingCart } from "lucide-react";
+import { ChevronRight, Download, FileText, Star, ChevronDown, ChevronUp, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import Navbar from "@/components/layout/Navbar";
@@ -116,14 +116,7 @@ export default function ProductDetailPage() {
                     <Link href="/checkout?buyNow=1">Buy Now</Link>
                   </Button>
                 </div>
-                <div className="grid grid-cols-2 gap-3">
-                  <Button size="lg" variant="outline" className="h-12 rounded-full border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white gap-2 font-bold flex items-center justify-center bg-transparent">
-                    <MessageSquare className="w-4 h-4" /> WhatsApp
-                  </Button>
-                  <Button size="lg" variant="outline" className="h-12 rounded-full border-2 border-zinc-700 text-zinc-700 hover:bg-zinc-700 hover:text-white gap-2 font-bold flex items-center justify-center bg-transparent">
-                    <Phone className="w-4 h-4" /> Call Now
-                  </Button>
-                </div>
+
                 <Button size="lg" variant="outline" className="h-12 w-full rounded-full border-border gap-2 font-semibold flex items-center justify-center bg-transparent">
                   <Download className="w-4 h-4" /> Download Brochure
                 </Button>

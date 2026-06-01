@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  Search, MessageSquare, ChevronDown, Menu, X,
+  Search, ChevronDown, Menu, X,
   Scale, Receipt, Printer, Package, Hash, Tag, Droplets, ShoppingCart
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -224,32 +224,6 @@ export default function Navbar() {
                   </span>
                 )}
               </button>
-
-              <Button
-                asChild
-                variant="outline"
-                className={`hidden lg:inline-flex rounded-full font-bold border-2 transition-all duration-200 ${
-                  solidNav
-                    ? "border-green-500 text-green-600 hover:bg-green-500 hover:text-white"
-                    : "border-white/80 text-white hover:bg-white hover:text-green-600"
-                } bg-transparent h-10 px-5 text-sm gap-1.5 flex items-center justify-center`}
-              >
-                <a
-                  href="https://wa.me/919000000000"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <MessageSquare className="w-4 h-4" />
-                  WhatsApp
-                </a>
-              </Button>
-
-              <Button
-                asChild
-                className="rounded-full bg-primary text-white hover:bg-primary/90 font-bold shadow-lg shadow-primary/20 h-10 px-6 text-sm flex items-center justify-center"
-              >
-                <Link href="/contact">Request Quote</Link>
-              </Button>
             </div>
 
             {/* Mobile Actions (Cart + Menu Toggle) */}
@@ -319,28 +293,7 @@ export default function Navbar() {
                   {label}
                 </Link>
               ))}
-              <div className="pt-4 pb-2 flex flex-col gap-3">
-                <Button
-                  asChild
-                  className="rounded-full bg-primary text-white font-bold w-full h-11 text-sm flex items-center justify-center shadow-lg shadow-primary/20"
-                >
-                  <Link href="/contact">Request Quote</Link>
-                </Button>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="rounded-full border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white font-bold w-full h-11 text-sm gap-2 flex items-center justify-center bg-transparent"
-                >
-                  <a
-                    href="https://wa.me/919000000000"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <MessageSquare className="w-4 h-4" />
-                    WhatsApp Us
-                  </a>
-                </Button>
-              </div>
+
             </div>
           </div>
         )}
